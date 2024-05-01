@@ -14,12 +14,13 @@ function SignInPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
+        <h1 className="text-center font-extrabold">진주 숲속 어르신 재활 학교</h1>
         <div>
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">로그인</h2>
+          <h2 className="mt-6 text-center text-3xl font-bold text-gray-900">로그인</h2>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <input type="hidden" name="remember" value="true" />
-          <div className="rounded-md shadow-sm -space-y-px">
+          <div className="rounded-md shadow-sm">
             <div>
               <label htmlFor="email-address" className="sr-only">
                 이메일 주소
