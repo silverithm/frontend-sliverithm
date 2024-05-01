@@ -8,7 +8,7 @@ function SignUpPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // 여기에 회원가입 처리 로직을 추가하세요.
+    // 회원가입 로직 추가.
     console.log('Email:', email);
     console.log('Password:', password);
     console.log('Nickname:', nickname);
